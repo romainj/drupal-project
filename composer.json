@@ -17,14 +17,13 @@
     "require": {
         "composer/installers": "^1.9",
         "drupal/admin_toolbar": "^2.4",
+        "drupal/adminimal_theme": "^1.6",
+        "drupal/bootstrap_barrio": "^5.1",
         "drupal/config_ignore": "^2.3",
         "drupal/config_split": "^1.7",
         "drupal/contact_storage": "^1.1",
         "drupal/core-composer-scaffold": "^9.1",
-        "drupal/core-project-message": "^9.1",
         "drupal/core-recommended": "^9.1",
-        "drupal/entity_usage": "^2.0@beta",
-        "drupal/inline_entity_form": "^1.0@RC",
         "drupal/layout_builder_modal": "^1.1",
         "drupal/layout_builder_restrictions": "^2.8",
         "drupal/paragraphs": "^1.12",
@@ -35,7 +34,7 @@
     "conflict": {
         "drupal/drupal": "*"
     },
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "prefer-stable": true,
     "config": {
         "sort-packages": true
@@ -73,27 +72,6 @@
             ],
             "web/themes/custom/{$name}": [
                 "type:drupal-custom-theme"
-            ]
-        },
-        "drupal-core-project-message": {
-            "include-keys": [
-                "homepage",
-                "support"
-            ],
-            "post-create-project-cmd-message": [
-                "<bg=blue;fg=white>                                                         </>",
-                "<bg=blue;fg=white>  Congratulations, you’ve installed the Drupal codebase  </>",
-                "<bg=blue;fg=white>  from the trainedpeople/drupal-project template!          </>",
-                "<bg=blue;fg=white>                                                         </>",
-                "",
-                "<bg=yellow;fg=black>Next steps</>:",
-                "  * Install the site: https://www.drupal.org/docs/8/install",
-                "  * Read the user guide: https://www.drupal.org/docs/user_guide/en/index.html",
-                "  * Get support: https://www.drupal.org/support",
-                "  * Get involved with the Drupal community:",
-                "      https://www.drupal.org/getting-involved",
-                "  * Remove the plugin that prints this message:",
-                "      composer remove drupal/core-project-message"
             ]
         }
     },
