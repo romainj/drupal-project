@@ -12,6 +12,10 @@
         {
             "type": "composer",
             "url": "https://packages.drupal.org/8"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/romainj/drupal-base-profile.git"
         }
     ],
     "require": {
@@ -29,6 +33,7 @@
         "drupal/paragraphs": "^1.12",
         "drupal/seckit": "^2.0",
         "drush/drush": "^10.3",
+        "romainj/drupal-base-profile": "1.0.0",
         "zaporylie/composer-drupal-optimizations": "^1.2"
     },
     "conflict": {
