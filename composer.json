@@ -26,6 +26,11 @@
         "romainj/drupal-base-profile": "^1.0",
         "zaporylie/composer-drupal-optimizations": "^1.2"
     },
+    "require-dev": {
+        "drupal/devel": "^4.1",
+        "drupal/reroute_email": "^2.0",
+        "kint-php/kint": "^3.3"
+    },
     "conflict": {
         "drupal/drupal": "*"
     },
