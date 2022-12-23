@@ -47,6 +47,9 @@
             "web/core": [
                 "type:drupal-core"
             ],
+            "web/libraries/chosen": [
+                "harvesthq/chosen"
+            ],
             "web/libraries/{$name}": [
                 "type:drupal-library"
             ],
