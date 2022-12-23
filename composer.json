@@ -34,7 +34,8 @@
         "sort-packages": true,
         "allow-plugins": {
             "composer/installers": true,
-            "drupal/core-composer-scaffold": true
+            "drupal/core-composer-scaffold": true,
+            "mnsami/composer-custom-directory-installer": true
         }
     },
     "extra": {
