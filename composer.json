@@ -72,5 +72,11 @@
                 "type:drupal-custom-theme"
             ]
         }
+    },
+    "require-dev": {
+        "drupal/devel": "*",
+        "drupal/reroute_email": "*",
+        "drupal/stage_file_proxy": "*",
+        "kint-php/kint": "*"
     }
 }
