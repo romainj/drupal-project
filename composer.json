@@ -25,11 +25,6 @@
         "drush/drush": "*",
         "romainj/drupal-base-profile": "*"
     },
-    "require-dev": {
-        "drupal/devel": "*",
-        "drupal/reroute_email": "*",
-        "kint-php/kint": "*"
-    },
     "conflict": {
         "drupal/drupal": "*"
     },
